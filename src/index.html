@@ -9,7 +9,7 @@
 </head>
 <body>
     <div>
-        <form onsubmit="checkCredential">
+        <form>
             <table>
                 <tr>
                     <th>FirstName : </th>
@@ -31,8 +31,13 @@
                     <th>Address : </th>
                     <td><textarea id="address" name="area"></textarea></td>
                 </tr>
+                <tr>
+                    <td>    </td>
+                    <td><button type="submit" onsubmit="checkCredential">submit</button></td>
+                    <td><button type="reset">Reset</button></td>
+                </tr>
             </table>
-            <button type="reset" onclick="DetailsOfUser">Reset</button>
+            
         </form>
     </div>
 </body>
