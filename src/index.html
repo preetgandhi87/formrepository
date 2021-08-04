@@ -1,19 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=<div>, initial-scale=1.0">
     <title>Document</title>
     <script src="index.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div>
         <form onsubmit="checkCredential">
             <table>
                 <tr>
                     <th>FirstName : </th>
-                    <td><input type="text" name="firstname" id="fname"></td> 
+                    <td><input type="text" name="firstname" id="fname"></td>
                 </tr>
                 <tr>
                     <th>LastName : </th>
@@ -31,9 +34,15 @@
                     <th>Address : </th>
                     <td><textarea id="address" name="area"></textarea></td>
                 </tr>
+                <tr>
+                    <td><button type="reset" onclick="DetailsOfUser">Reset</button></td>
+                    <td><button type="submit">submit</button></td>
+
+                </tr>
             </table>
-            <button type="reset" onclick="DetailsOfUser">Reset</button>
+
         </form>
     </div>
 </body>
+
 </html>
