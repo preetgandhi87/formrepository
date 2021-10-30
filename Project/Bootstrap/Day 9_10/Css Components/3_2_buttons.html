@@ -1,42 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous"
-    />
-    <script
-      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
-      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
-      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
-      crossorigin="anonymous"
-    ></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap - Project</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="../../../style.css">
+  <script src="https://kit.fontawesome.com/e153b670c8.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-    <header class="mb-5">
+  <div class="container-div">
+    <nav class="navbar">
+      <ul>
+        <li class="navbar-logo"><a href="../../../index.html"><img src="../../../Assets/Radix.jpg"></a></li>
+        <li class="navbar-links"><a href="../../../index.html">Home</a></li>
+        <li class="navbar-links"><a href="../../../HTML/html.html">Html</a></li>
+        <li class="navbar-links"><a href="../../../CSS/css.html">Css</a></li>
+        <li class="navbar-links"><a href="../../bootstrap.html">Bootstrap</a></li>
+        <li class="navbar-links"><a href="../../../Javascript/javascript.html">Javascript</a></li>
+        <li class="navbar-links"><a href="../../../JQuery/jquery.html">JQuery</a></li>
+        <li class="navbar-links"><a href="../../../Project/project.html">Project</a></li>
+      </ul>
+    </nav>
+    <div class="sidebar">
+      <ol>
+        <li><i class="far fa-folder">&nbsp;&nbsp;&nbsp;Day 9</i>
+          <ul class="folder">
+            <li><i class="far fa-folder-open">&nbsp;&nbsp;Utilities</i>
+              <ol class="subfolder" type="a">
+                <li><a href="../Utilities/2_2 Basic_Typography.html">Basic_Typography</a></li>
+                <li><a href="../Utilities/2_3 text_alignement_display.html">Text_alignment_display</a></li>
+                <li><a href="../Utilities/2_4_float_&_Poistion.html">Float_&_Poistion</a></li>
+                <li><a href="../Utilities/2_5_colors_background.html">Colors_background</a></li>
+                <li><a href="../Utilities/2_6_spacing.html">Spacing</a></li>
+                <li><a href="../Utilities/2_7_sizing.html">Sizing_Borders</a></li>
+                <li><a href="../Utilities/2_8_breakpoints.html">Breakpoints</a></li>
+              </ol>
+            </li>
+            <li><i class="far fa-folder-open">&nbsp;&nbsp;CSS Components</i>
+              <ol class="subfolder" type="a">
+                <li><a href="3_2_buttons.html">Buttons</a></li>
+                <li><a href="3_3_navbar.html">Navbar_Navs</a></li>
+                <li><a href="3_4_list_groups_badges.html">ListGroups_Badges</a></li>
+                <li><a href="3_5_forms.html">Forms</a></li>
+                <li><a href="3_6_input_groups.html">Input_Groups</a></li>
+                <li><a href="3_7_alerts_progress.html">Alerts_Progress_Bars</a></li>
+                <li><a href="3_8_table_pagination.html">Tables_Pagination</a></li>
+                <li><a href="3_9_cards.html">Cards</a></li>
+                <li><a href="3_10_media_object.html">Media_Objects</a></li>
+              </ol>
+            </li>
+            <li><i class="far fa-folder-open">&nbsp;&nbsp;Grid Flexbox</i>
+              <ol class="subfolder" type="a">
+                <li><a href="../Grid_System_&_flex_box/4_2_grid_system.html">Grid_System</a></li>
+                <li><a href="../Grid_System_&_flex_box/4_3_grid_alignment.html">Grid_Alignment</a></li>
+                <li><a href="../Grid_System_&_flex_box/4_4_flexbox.html">Flexbox_Classes</a></li>
+                <li><a href="../Grid_System_&_flex_box/4_5_auto_margins_wrapping_order.html">Auto_Margin_Wrap_Order</a>
+                </li>
+              </ol>
+            </li>
+            <li><i class="far fa-folder-open">&nbsp;&nbsp;Javascript Widgets</i>
+              <ol class="subfolder" type="a">
+                <li><a href="../Javascrip_widgets/5_2_carousel.html">Carousel_Slider</a></li>
+                <li><a href="../Javascrip_widgets/5_3_collapse.html">Collapse_Accordian</a></li>
+                <li><a href="../Javascrip_widgets/5_4_tooltips.html">Tooltips</a></li>
+                <li><a href="../Javascrip_widgets/5_5_popovers.html">Popover</a></li>
+                <li><a href="../Javascrip_widgets/5_6_modals.html">Modals</a></li>
+              </ol>
+            </li>
+          </ul>
+        </li><br>
+      </ol>
+    </div>
+    <main>
+      <header class="mb-5">
         <h1 class="display-3 text-center my-3">Buttons</h1>
         <div class="container">
           <div class="row">
             <div class="col-md-3">
               <div class="dropdown w-100">
                 <button class="btn btn-primary dropdown-toggle w-100" type="button" data-bs-toggle="dropdown">
-                 2: Utilities
+                  2: Utilities
                 </button>
                 <ul class="dropdown-menu w-100">
-                  <li><a class="dropdown-item" href="../Utilities/2_2 Basic_Typography.html">2.2 Basic Typography</a></li>
-                  <li><a href="../Utilities/2_3 text_alignement_display.html" class="dropdown-item">2.3 Text Alignment & Display</a></li>
-                  <li><a href="../Utilities/2_4_float_&_Poistion.html" class="dropdown-item">2.4 Float & Position</a></li>
-                  <li><a href="../Utilities/2_5_colors_background.html" class="dropdown-item">2.5 Colors & Background</a></li>
+                  <li><a class="dropdown-item" href="../Utilities/2_2 Basic_Typography.html">2.2 Basic Typography</a>
+                  </li>
+                  <li><a href="../Utilities/2_3 text_alignement_display.html" class="dropdown-item">2.3 Text Alignment &
+                      Display</a></li>
+                  <li><a href="../Utilities/2_4_float_&_Poistion.html" class="dropdown-item">2.4 Float & Position</a>
+                  </li>
+                  <li><a href="../Utilities/2_5_colors_background.html" class="dropdown-item">2.5 Colors &
+                      Background</a></li>
                   <li><a href="../Utilities/2_6_spacing.html" class="dropdown-item">2.6 Spacing</a></li>
                   <li><a href="../Utilities/2_7_sizing.html" class="dropdown-item">2.7 Sizing</a></li>
                   <li><a href="../Utilities/2_8_breakpoints.html" class="dropdown-item">2.8 Breakpoints</a></li>
@@ -44,55 +108,58 @@
               </div>
             </div>
             <div class="col-md-3">
-             <div class="dropdown">
-               <button class="btn btn-success dropdown-toggle w-100" type="button" data-bs-toggle="dropdown">
-                3: CSS Component
-               </button>
-               <ul class="dropdown-menu w-100">
-                 
-                 <li><a href="./3_2_buttons.html" class="dropdown-item">3.2 Buttons</a></li>
-                 <li><a href="./3_3_navbar.html" class="dropdown-item">3.3 Navbar</a></li>
-                 <li><a href="./3_4_list_groups_badges.html" class="dropdown-item">3.4 Lists Group & Badges</a></li>
-                 <li><a href="./3_5_forms.html" class="dropdown-item">3.5 Forms</a></li>
-                 <li><a href="./3_6_input_groups.html" class="dropdown-item">3.6 Input Groups</a></li>
-                 <li><a href="./3_7_alerts_progress.html" class="dropdown-item">3.7 Alerts & Progress</a></li>
-                 <li><a href="./3_8_table_pagination.html" class="dropdown-item">3.8 Table & Pagination</a></li>
-                 <li><a href="./3_9_cards.html" class="dropdown-item">3.9 Cards</a></li>
-                 <li><a href="./3_10_media_object.html" class="dropdown-item">3.10 Media Objects</a></li>
-               </ul>
-             </div>
+              <div class="dropdown">
+                <button class="btn btn-success dropdown-toggle w-100" type="button" data-bs-toggle="dropdown">
+                  3: CSS Component
+                </button>
+                <ul class="dropdown-menu w-100">
+
+                  <li><a href="./3_2_buttons.html" class="dropdown-item">3.2 Buttons</a></li>
+                  <li><a href="./3_3_navbar.html" class="dropdown-item">3.3 Navbar</a></li>
+                  <li><a href="./3_4_list_groups_badges.html" class="dropdown-item">3.4 Lists Group & Badges</a></li>
+                  <li><a href="./3_5_forms.html" class="dropdown-item">3.5 Forms</a></li>
+                  <li><a href="./3_6_input_groups.html" class="dropdown-item">3.6 Input Groups</a></li>
+                  <li><a href="./3_7_alerts_progress.html" class="dropdown-item">3.7 Alerts & Progress</a></li>
+                  <li><a href="./3_8_table_pagination.html" class="dropdown-item">3.8 Table & Pagination</a></li>
+                  <li><a href="./3_9_cards.html" class="dropdown-item">3.9 Cards</a></li>
+                  <li><a href="./3_10_media_object.html" class="dropdown-item">3.10 Media Objects</a></li>
+                </ul>
+              </div>
             </div>
             <div class="col-md-3">
-             <div class="dropdown">
-               <button class="btn btn-warning dropdown-toggle w-100" type="button" data-bs-toggle="dropdown">
-                4: Grid System & flex box
-               </button>
-               <ul class="dropdown-menu w-100">
-                 <li><a href="../Grid_System_&_flex_box/4_2_grid_system.html" class="dropdown-item">4.2 Grid System</a></li>
-                 <li><a href="../Grid_System_&_flex_box/4_3_grid_alignment.html" class="dropdown-item">4.3 Grid Alignment</a></li>
-                 <li><a href="../Grid_System_&_flex_box/4_4_flexbox.html" class="dropdown-item">4.4 Flexbox</a></li>
-                 <li><a href="../Grid_System_&_flex_box/4_5_auto_margins_wrapping_order.html" class="dropdown-item">4.5 Auto margins and Wrapping Order Grid Alignment</a></li>
-               </ul>
-             </div>
+              <div class="dropdown">
+                <button class="btn btn-warning dropdown-toggle w-100" type="button" data-bs-toggle="dropdown">
+                  4: Grid System & flex box
+                </button>
+                <ul class="dropdown-menu w-100">
+                  <li><a href="../Grid_System_&_flex_box/4_2_grid_system.html" class="dropdown-item">4.2 Grid System</a>
+                  </li>
+                  <li><a href="../Grid_System_&_flex_box/4_3_grid_alignment.html" class="dropdown-item">4.3 Grid
+                      Alignment</a></li>
+                  <li><a href="../Grid_System_&_flex_box/4_4_flexbox.html" class="dropdown-item">4.4 Flexbox</a></li>
+                  <li><a href="../Grid_System_&_flex_box/4_5_auto_margins_wrapping_order.html" class="dropdown-item">4.5
+                      Auto margins and Wrapping Order Grid Alignment</a></li>
+                </ul>
+              </div>
             </div>
             <div class="col-md-3">
-             <div class="dropdown">
-               <button class="btn btn-danger dropdown-toggle w-100" type="button" data-bs-toggle="dropdown">
-                5: Javascript Widgets
-               </button>
-               <ul class="dropdown-menu w-100">
-                 <li><a href="../Javascrip_widgets/5_2_carousel.html" class="dropdown-item">5.2 Carousel</a></li>
-                 <li><a href="../Javascrip_widgets/5_3_collapse.html" class="dropdown-item">5.3 Collapse</a></li>
-                 <li><a href="../Javascrip_widgets/5_4_tooltips.html" class="dropdown-item">5.4 Tooltips</a></li>
-                 <li><a href="../Javascrip_widgets/5_5_popovers.html" class="dropdown-item">5.5 Popovers</a></li>
-                 <li><a href="../Javascrip_widgets/5_6_modals.html" class="dropdown-item">5.6 Modals</a></li>
-               </ul>
-             </div>
+              <div class="dropdown">
+                <button class="btn btn-danger dropdown-toggle w-100" type="button" data-bs-toggle="dropdown">
+                  5: Javascript Widgets
+                </button>
+                <ul class="dropdown-menu w-100">
+                  <li><a href="../Javascrip_widgets/5_2_carousel.html" class="dropdown-item">5.2 Carousel</a></li>
+                  <li><a href="../Javascrip_widgets/5_3_collapse.html" class="dropdown-item">5.3 Collapse</a></li>
+                  <li><a href="../Javascrip_widgets/5_4_tooltips.html" class="dropdown-item">5.4 Tooltips</a></li>
+                  <li><a href="../Javascrip_widgets/5_5_popovers.html" class="dropdown-item">5.5 Popovers</a></li>
+                  <li><a href="../Javascrip_widgets/5_6_modals.html" class="dropdown-item">5.6 Modals</a></li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
       </header>
-    <div class="container">
+      <div class="container">
         <button type="button" class="btn btn-primary">Primary</button>
         <button type="button" class="btn btn-secondary">Secondary</button>
         <button type="button" class="btn btn-success">Success</button>
@@ -131,7 +198,7 @@
 
         <!-- BUTTON SIZES -->
         <button type="button" class="btn btn-primary btn-lg">
-            <i class="fa fa-user"></i> Large button</button>
+          <i class="fa fa-user"></i> Large button</button>
         <button type="button" class="btn btn-primary btn-sm">Small button</button>
         <br>
         <br>
@@ -141,11 +208,12 @@
 
         <!-- STATES -->
         <button type="button" data-bs-toggle="button" class="btn btn-primary">Regular Button</button>
-        <button type="button active" data-bs-toggle="button" class="btn btn-primary" aria-pressed="true">Active Button</button>
+        <button type="button active" data-bs-toggle="button" class="btn btn-primary" aria-pressed="true">Active
+          Button</button>
         <button type="button" data-bs-toggle="button" disabled class="btn btn-primary">Disabled Button</button>
 
         <button type="button" class="btn btn-primary" data-bs-toggle="button">
-            Toggle State
+          Toggle State
         </button>
 
         <br>
@@ -153,29 +221,29 @@
 
         <!-- BUTTON GROUPS -->
         <div class="btn-group" role="group">
-            <button type="button" class="btn btn-primary btn-start">Left</button>
-            <button type="button" class="btn btn-primary btn-center">Middle</button>
-            <button type="button" class="btn btn-primary btn-end">Right</button>
+          <button type="button" class="btn btn-primary btn-start">Left</button>
+          <button type="button" class="btn btn-primary btn-center">Middle</button>
+          <button type="button" class="btn btn-primary btn-end">Right</button>
         </div>
 
         <br></br>
 
         <!-- BUTTON TOOLBAR -->
         <div class="btn-toolbar">
-            <div class="btn-group me-2">
-                <button type="button" class="btn btn-primary">1</button>
-                <button type="button" class="btn btn-primary">2</button>
-                <button type="button" class="btn btn-primary">3</button>
-                <button type="button" class="btn btn-primary">4</button>
-            </div>
-            <div class="btn-group me-2">
-                <button type="button" class="btn btn-secondary">5</button>
-                <button type="button" class="btn btn-secondary">6</button>
-                <button type="button" class="btn btn-secondary">7</button>
-            </div>
-            <div class="btn-group">
-                <button type="button" class="btn btn-primary">8</button>
-            </div>
+          <div class="btn-group me-2">
+            <button type="button" class="btn btn-primary">1</button>
+            <button type="button" class="btn btn-primary">2</button>
+            <button type="button" class="btn btn-primary">3</button>
+            <button type="button" class="btn btn-primary">4</button>
+          </div>
+          <div class="btn-group me-2">
+            <button type="button" class="btn btn-secondary">5</button>
+            <button type="button" class="btn btn-secondary">6</button>
+            <button type="button" class="btn btn-secondary">7</button>
+          </div>
+          <div class="btn-group">
+            <button type="button" class="btn btn-primary">8</button>
+          </div>
         </div>
 
         <br>
@@ -183,9 +251,9 @@
 
         <!-- VERTICAL GROUP -->
         <div class="btn-group-vertical">
-            <button type="button" class="btn btn-primary">Left</button>
-            <button type="button" class="btn btn-primary">Middle</button>
-            <button type="button" class="btn btn-primary">Right</button>
+          <button type="button" class="btn btn-primary">Left</button>
+          <button type="button" class="btn btn-primary">Middle</button>
+          <button type="button" class="btn btn-primary">Right</button>
         </div>
 
         <br>
@@ -193,14 +261,14 @@
 
         <!-- BUTTON DROPDOWNS -->
         <div class="btn-group">
-            <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
-                My Dropdown
-            </button>
-            <ul class="dropdown-menu">
-                <li><a href="#" class="btn btn-outline-primary">Link One</a></li>
-                <li><a href="#" class="btn btn-outline-primary">Link Two</a></li>
-                <li><a href="#" class="btn btn-outline-primary">Link Three</a></li>
-            </ul>
+          <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+            My Dropdown
+          </button>
+          <ul class="dropdown-menu">
+            <li><a href="#" class="btn btn-outline-primary">Link One</a></li>
+            <li><a href="#" class="btn btn-outline-primary">Link Two</a></li>
+            <li><a href="#" class="btn btn-outline-primary">Link Three</a></li>
+          </ul>
         </div>
 
         <br>
@@ -208,18 +276,23 @@
 
         <!-- SPLIT DROPDOWNS -->
         <div class="btn-group">
-            <button type="button" class="btn btn-primary">My Button</button>
-            <button type="button" class="btn dropdown-toggle dropdown-toggle-split">
-                <span>Toggle Dropdown</span>
-            </button>
-            <ul class="dropdown-menu">
-                <li><a href="#" class="dropdown-item">Link One</a></li>
-                <li><a href="#" class="dropdown-item">Link Two</a></li>
-                <li><a href="#" class="dropdown-item">Link Three</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a href="#">Link Four</a></li>
-            </ul>
+          <button type="button" class="btn btn-primary">My Button</button>
+          <button type="button" class="btn dropdown-toggle dropdown-toggle-split">
+            <span>Toggle Dropdown</span>
+          </button>
+          <ul class="dropdown-menu">
+            <li><a href="#" class="dropdown-item">Link One</a></li>
+            <li><a href="#" class="dropdown-item">Link Two</a></li>
+            <li><a href="#" class="dropdown-item">Link Three</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a href="#">Link Four</a></li>
+          </ul>
         </div>
-    </div>
+      </div>
+    </main>
+  </div>
 </body>
+
 </html>
