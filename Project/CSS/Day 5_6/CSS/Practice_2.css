@@ -1,0 +1,32 @@
+/*Practice 2 */
+.breakPoint {
+    border: 2px solid salmon;
+  }
+  @media only screen and (max-width: 600px) {
+    .breakPoint {
+      background: red;
+    }
+  }
+  @media only screen and (min-width: 600px) {
+    .breakPoint {
+      background: green;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) {
+    .breakPoint {
+      background: blue;
+    }
+  }
+  
+  @media only screen and (min-width: 992px) {
+    .breakPoint {
+      background: orange;
+    }
+  }
+  
+  @media only screen and (min-width: 1200px) {
+    .breakPoint {
+      background: pink;
+    }
+  }

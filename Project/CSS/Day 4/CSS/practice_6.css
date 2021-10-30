@@ -1,0 +1,16 @@
+.second{
+    height: 500px;
+    width: 500px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    flex-flow: row-reverse;
+    text-align: left;
+    margin-top: 10px;
+}
+.one,.two{
+    height: 230px;
+    width: 230px;
+    border: 1px dashed black;
+    margin: 7px;
+}

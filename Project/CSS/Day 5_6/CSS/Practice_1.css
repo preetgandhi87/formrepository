@@ -1,0 +1,10 @@
+/*Practice 1 */
+.para {
+  border: 5px solid blue;
+}
+
+@media (max-width: 500px) {
+  .para {
+    border: 3px red dashed;
+  }
+}
